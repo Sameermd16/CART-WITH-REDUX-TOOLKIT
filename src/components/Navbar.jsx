@@ -7,7 +7,7 @@ const Navbar = () => {
     //const entireStore = useSelector((store) => {console.log(store)})
     // const slicedStoreCart = useSelector((store) => store.cart)
     const {amount} = useSelector((store) => store.cart)
-    console.log(amount)
+    // console.log(amount)
 
     return (
         <nav>
